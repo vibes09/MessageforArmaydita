@@ -27,13 +27,7 @@ window.addEventListener('load', () => {
             backSpeed: 40,
             startDelay: 1000,
             loop: false
-        });
-
-        // image
-        let kalog = document.querySelector("#kalog");
-        let images = ['kalog/image1.jpeg', 'kalog/image2.jpeg', 'kalog/image3.jpeg', 'kalog/image4.jpeg', 'kalog/image5.jpeg', 'kalog/image6.jpeg', 'kalog/image7.jpeg', 'kalog/image8.jpeg', 'kalog/image9.jpeg', 'kalog/image10.jpeg', 'kalog/image11.jpeg', 'kalog/image12.jpeg','kalog/image13.jpeg', 'kalog/image14.jpeg','kalog/image15.jpeg', 'kalog/image16.jpeg', 'kalog/image17.jpeg', 'kalog/image18.jpeg', 'kalog/image19.jpeg','kalog/image20.jpeg', 'kalog/image21.jpeg', 'kalog/image22.jpeg', 'kalog/image23.jpeg'];
-        let cover = document.querySelector('#cv');
-        
+        });        
 
         // button show
         const myTimeout = setTimeout(showbtn, 15000);
@@ -95,18 +89,6 @@ window.addEventListener('load', () => {
             hiding.getBtnShow();
             hiding.getAudio();
             
-            setInterval(() => {
-                let random = Math.floor(Math.random() * 23);
-                let url = images[random];
-
-                if (kalog.src == undefined) {
-                    kalog.src = "kalog/image1.jpeg";
-                } else {
-                    kalog.src = url;
-                    cover.style.backgroundImage = `url(${url})`;
-                }
-            }, 3000);
-
             
         
         });

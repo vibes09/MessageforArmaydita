@@ -14,11 +14,11 @@ window.addEventListener('load', () => {
     if (confirm(q) == true) {
         // typing script
         var typed = new Typed(".typing", {
-            strings: ["Helloooooo boo", "I'm back again with this hehe", "Let me tell you something", "You're beautiful, kind, soft person I ever know", "You'll get through all of your problems, you're strong", "Don't ever think to give up, okay?", "You did great, take care of yourself always", "I'm proud of you Valerie", "Always remember that I'm here for you", "I'll be there for you on your bad days or good days", "Boo, you know I always hope that I can make you happy", "Did I make you happy?", "Because you make me happy", "Oh! You know, you're the first thought in my head when I wake up and the last thought in my mind when I go to sleep", "Believe me when I say I always think of you, no matter how busy I am", "Love from me, Valerie" ],
+            strings: ["Helloooooo boo", "I'm back again with this hehe", "Let me tell you something", "You're beautiful, kind, soft person I ever know", "You'll get through all of your problems, you're strong", "Don't ever think to give up, okay?", "You did great, take care of yourself always", "I'm proud of you Valerie", "Always remember that I'm here for you", "I'll be there for you on your bad days or good days", "You can call me, text me, I will always giving the best for you", "Boo, you know I always hope that I can make you happy", "Did I make you happy?", "Because you make me happy", "Oh! You know, you're the first thought in my head when I wake up and the last thought in my mind when I go to sleep", "Believe me when I say I always think of you, no matter how busy I am", "Let me be there for you, let me take care of you", "I think that's it boo", "Love from me, Valerie" ],
             typeSpeed: 50,
             backSpeed: 30, 
             startDelay: 17000,
-            loop: true
+            loop: false
         });
         
         var typed = new Typed(".typing2", {
